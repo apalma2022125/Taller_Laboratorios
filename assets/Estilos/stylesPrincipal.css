@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em
+}
+
+;
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+button {
+    font-size: 1.5zem;
+    font-weight: bold;
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover {
+    background-color: rgb(101, 33, 165);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.colorTit {
+    color: blueviolet;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header a:hover {
+    color: blueviolet;
+}
+
+#pqg .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#pqg {
+
+    background: rgb(215,134,84);
+    background: linear-gradient(90deg, rgba(215,134,84,1) 0%, rgba(149,135,219,1) 35%, rgba(91,164,181,1) 100%);
+}
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+#pqg .container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#pqg .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: beige;
+
+}
+
+#pqg .img-container {
+    border-radius: 50px;
+    background-image: url('../img/stt.gif');
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 800px;
+
+}
+
+#pqg h2 {
+    margin-top: 0px;
+}
+
+
+
+
+#Historia {
+
+    background: rgb(210, 199, 174);
+    background: linear-gradient(0deg, rgba(210, 199, 174, 1) 0%, rgba(212, 195, 160, 1) 97%);
+}
+
+#Historia .container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#Historia .texto {
+
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+
+}
+
+#Historia h2 {
+    margin-top: 0px;
+}
+
+#Historia .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Historia .img-container {
+    border-radius: 50px;
+    background-image: url('../img/hisPrincipal.webp');
+    background-size: contain;
+    background-position: center center;
+    height: 700px;
+    width: 800px;
+
+}
